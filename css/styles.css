@@ -83,5 +83,5 @@ footer > p > strong > a {
 }
 
 footer > p > strong > a:hover {
-    color: var(--cor-primaira);
+    color: var(--cor-primaira-hover);
 }
