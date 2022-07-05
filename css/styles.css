@@ -5,6 +5,7 @@
     --cor-mediun: #ff995e;
     --cor-viva: #de1d6a;
 
+    --cor-primaira-hover: #000000;
     --cor-primaria-hover: #3f324df3;
 }
 
@@ -75,4 +76,12 @@ header > nav > ul > li {
 
 header > nav > ul > li:hover {
     background-color: var(--cor-primaria-hover);
+}
+
+footer > p > strong > a {
+    color: var(--cor-primaira);
+}
+
+footer > p > strong > a:hover {
+    color: var(--cor-primaira);
 }
