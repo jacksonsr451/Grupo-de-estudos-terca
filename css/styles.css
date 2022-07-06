@@ -177,6 +177,13 @@ header>nav>ul>li:hover {
     background-color: var(--cor-primaria-hover);
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 footer>p>strong>a {
     color: var(--cor-primaira);
 }
