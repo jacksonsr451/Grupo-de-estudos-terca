@@ -6,6 +6,7 @@
     --cor-viva: #de1d6a;
     --cor-primaira-hover: #000000;
     --cor-primaria-hover: #3f324df3;
+    --font-fira-sans: 'Fira Sans', sans-serif;
 }
 
 html,
@@ -113,6 +114,7 @@ section {
 
 html {
     color: var(--cor-primaira);
+    font-family: var(--font-fira-sans);
 }
 
 body {
@@ -182,6 +184,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer>p {
+    padding: .5rem 0;
 }
 
 footer>p>strong>a {
