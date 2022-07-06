@@ -62,6 +62,7 @@ a, a:hover {
     color: var(--cor-clara);
 }
 
+header > nav,
 header > nav > ul {
     display: flex;
     flex-direction: row;
@@ -76,11 +77,11 @@ header > nav > ul > li {
 
 header > nav > ul > li:hover {
     background-color: var(--cor-primaria-hover);
+    border-radius: .8rem;
 }
 
 footer > p > strong > a {
     color: var(--cor-primaira);
-    border-radius: .8rem;
 }
 
 footer > p > strong > a:hover {
