@@ -80,6 +80,7 @@ header > nav > ul > li:hover {
 
 footer > p > strong > a {
     color: var(--cor-primaira);
+    border-radius: .8rem;
 }
 
 footer > p > strong > a:hover {
