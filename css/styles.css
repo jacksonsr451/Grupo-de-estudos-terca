@@ -80,11 +80,17 @@ table {
 }
 
 header > nav > a > img {
-    width: 4.2rem;
-    height: 1.5rem;
+    width: 7rem;
+    height: 3rem;
 }
 
 header > nav {
     display: flex;
     align-items: center;
+}
+
+header > nav > ul {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
 }
