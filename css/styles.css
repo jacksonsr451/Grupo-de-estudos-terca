@@ -115,6 +115,7 @@ header > nav > ul > li > a {
 
 .container > aside > ul {
     display: flex;
+    width: 21.875rem;
     flex-direction: column;
     margin-top: 1rem;
     margin-left: 1rem;
@@ -130,6 +131,12 @@ header > nav > ul > li > a {
 
 .container > aside > ul > li > a {
     color: var(--color-secondary-dark);
+}
+
+.container > .content {
+    width: 100%;
+    height: 100%;
+    margin-left: .5rem;
 }
 
 footer {
