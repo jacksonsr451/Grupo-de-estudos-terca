@@ -79,18 +79,28 @@ table {
 	border-spacing: 0;
 }
 
-header > nav > a > img {
-    width: 7rem;
-    height: 3rem;
-}
-
 header > nav {
     display: flex;
     align-items: center;
+    margin-left: 1rem;
+}
+
+header > nav > a > img {
+    width: 7rem;
+    height: 3rem;
 }
 
 header > nav > ul {
     display: flex;
     align-items: center;
     margin-left: 1rem;
+}
+
+header > nav > ul > li {
+    background-color: var(--color-blak);
+    margin-left: 1rem;
+}
+
+header > nav > ul > li > a {
+    color: var(--color-white);
 }
