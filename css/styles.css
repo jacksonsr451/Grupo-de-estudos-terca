@@ -141,6 +141,7 @@ header > nav > ul > li > a {
 
 footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
