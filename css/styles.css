@@ -115,7 +115,7 @@ header > nav > ul > li > a {
 
 .container > aside > ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .container > aside > ul > li {
