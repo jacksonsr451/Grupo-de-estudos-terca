@@ -106,3 +106,9 @@ header > nav > ul > li {
 header > nav > ul > li > a {
     color: var(--color-white);
 }
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+}
