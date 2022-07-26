@@ -97,8 +97,10 @@ header > nav > ul {
 }
 
 header > nav > ul > li {
-    background-color: var(--color-blak);
+    background-color: var(--color-secondary-dark);
+    padding: .5rem;
     margin-left: 1rem;
+    border-radius: .8rem;
 }
 
 header > nav > ul > li > a {
