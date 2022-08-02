@@ -8,6 +8,10 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -16,33 +20,12 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="/"><img src="logo.svg" alt="Logo Blog Pensamento Computacional"></a>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/pages/about.html">Sobre</a></li>
-                <li><a href="/pages/images.html">Imagens</a></li>
-            </ul>
-        </nav>
+    <header id="header">
     </header>
-    <section class="container">
-        <aside>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/pages/about.html">Sobre</a></li>
-                <li><a href="/pages/images.html">Imagens</a></li>
-            </ul>
-        </aside>
-        <section class="content">
-            <h1>Esté é um blog focado em pensamento computacional.</h1>
-            <p>Conteudos para auxiliar ao estudo de linguagems de programação como, <em>Python</em>, 
-                <em>Javascript</em>, <em>HTML</em> e <em>CSS</em>.</p>
-        </section>
+    <section id="container" class="container">
+        <aside id="aside"></aside>
     </section>
-    <footer>
-        <p><em>Turma do Formadores em ação - <strong>Proff Carolina</strong></em></p>
-        <p><strong>Copyright &copy 2022 - <a href="https://github.com/jacksonsr451">Jackson Severino da Rocha</a></strong></p>
+    <footer id="footer">
     </footer>
 
     <script src="script.js"></script>
