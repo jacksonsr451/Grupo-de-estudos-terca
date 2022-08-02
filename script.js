@@ -1,37 +1,41 @@
 $(document).ready(function(){
-    $(function(){
-        $("#header").load("partials/header.html"); 
-    });
-    
-    $(function(){
-        $("#aside").load("partials/aside.html"); 
-    });
-    
-    $(function(){
-        $("#footer").load("partials/footer.html"); 
-    });
-
     $("#home-logo").click(function(){
-          
         $(function(){
-            $("#container").load("pages/home.html"); 
+            $("#content").load("pages/home.html"); 
         });
     })
     $("#home-header").click(function(){
           
         $(function(){
-            $("#container").load("pages/home.html"); 
+            $("#content").load("pages/home.html"); 
         });
     })
     $("#about-header").click(function(){
           
         $(function(){
-            $("#container").load("pages/about.html"); 
+            $("#content").load("pages/about.html"); 
         });
     })
     $("#images-header").click(function(){
         $(function(){
-            $("#container").load("pages/images.html"); 
+            $("#content").load("pages/images.html"); 
+        });
+    })
+    $("#home-aside").click(function(){
+          
+        $(function(){
+            $("#content").load("pages/home.html"); 
+        });
+    })
+    $("#about-aside").click(function(){
+          
+        $(function(){
+            $("#content").load("pages/about.html"); 
+        });
+    })
+    $("#images-aside").click(function(){
+        $(function(){
+            $("#content").load("pages/images.html"); 
         });
     })
 });
