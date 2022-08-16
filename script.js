@@ -1,3 +1,6 @@
+$(function(){
+    $("#content").load("pages/home.html"); 
+});
 $(document).ready(function(){
     $("#home-logo").click(function(){
         $(function(){

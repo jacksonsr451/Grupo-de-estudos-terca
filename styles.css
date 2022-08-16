@@ -13,8 +13,10 @@
     --color-secodary-light: #FFF84A;
     --color-tertiary-light: #57FFD9;
 
-    --color-blak: #111111;
+    --color-black: #111111;
     --color-white: #fffafa;
+
+    --color-grey: #11111158;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -106,35 +108,17 @@ header > nav > ul > li > a {
 
 .container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 80vh;
 }
 
-.container > aside > ul {
-    display: flex;
-    width: 12rem;
-    flex-direction: column;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
 
-.container > aside > ul > li {
-    width: 10rem;
-    background-color: var(--color-white);
-    border-radius: .8rem;
-    font-size: 1.7rem;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.container > aside > ul > li > a {
-    padding: .5rem;
-    text-align: center;
-    color: var(--color-secondary-dark);
-}
-
-.container > .content {
-    margin-left: .5rem;
+.container > #content {
+    width: 80vw;
+    height: 80vh;
+    overflow: scroll;
 }
 
 footer {

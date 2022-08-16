@@ -1,3 +1,94 @@
-<h1>Esté é um blog focado em pensamento computacional.</h1>
-<p>Conteudos para auxiliar ao estudo de linguagems de programação como, <em>Python</em>, 
-<em>Javascript</em>, <em>HTML</em> e <em>CSS</em>.</p>
+<style>
+    .cards {
+        grid-auto-flow: column;
+        width: 80vw;
+        height: auto;
+        align-items: center;
+        justify-content: space-around;
+        color: var(--color-white);
+    }
+    .cards > .card {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-grey);
+        width: 14.375rem;
+        height: 18.75rem;
+        border-radius: .8rem;
+    }
+    .cards > .card > .top_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14.375rem;
+        height: 4rem;
+        border-bottom: .1rem;
+        border-style: solid;
+        border-color: var(--color-black);
+    }
+    .cards > .card > .content_card {
+        display: flex;
+        width: 14.375rem;
+        height: 8.75rem;
+    }
+    .cards > .card > .content_card > img {
+        width: 14.375rem;
+        height: auto;
+        opacity: 0.5;
+    }
+    .cards > .card > .description_card {
+        display: flex;
+        align-items: center;
+        width: 14.375rem;
+        height: 6rem;
+        border-top: .1rem;
+        border-style: solid;
+        border-color: var(--color-black);
+    }
+</style>
+
+<section class="cards">
+    <div class="card">
+        <div class="top_card">
+            <span>CARD 1</span>
+        </div>
+        <div class="content_card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/24/20/30/architecture-1857175_960_720.jpg">
+        </div>
+        <div class="description_card">
+            descrição
+        </div>
+    </div>
+    <div class="card">
+        <div class="top_card">
+            <span>CARD 2</span>
+        </div>
+        <div class="content_card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/24/20/30/architecture-1857175_960_720.jpg">
+        </div>
+        <div class="description_card">
+            descrição
+        </div>
+    </div>
+    <div class="card">
+        <div class="top_card">
+            <span>CARD 3</span>
+        </div>
+        <div class="content_card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/24/20/30/architecture-1857175_960_720.jpg">
+        </div>
+        <div class="description_card">
+            descrição
+        </div>
+    </div>
+    <div class="card">
+        <div class="top_card">
+            <span>CARD 4</span>
+        </div>
+        <div class="content_card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/24/20/30/architecture-1857175_960_720.jpg">
+        </div>
+        <div class="description_card">
+            descrição
+        </div>
+    </div>
+</section>
